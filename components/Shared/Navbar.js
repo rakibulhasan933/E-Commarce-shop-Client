@@ -1,11 +1,12 @@
 "use client"
 import Link from "next/link";
 import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 
 function Navbar() {
 	return (
-		<div className="navbar bg-base-100">
+		<div className="navbar bg-base-200">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,17 +21,16 @@ function Navbar() {
 				</div>
 				<a className="btn btn-ghost normal-case text-xl">Walker Shop</a>
 			</div>
-			<div className="navbar-center hidden lg:flex">
-				<ul className="menu menu-horizontal px-1">
-					<li><Link href='/products'>Products</Link></li>
-					<li><Link href='/about'>About</Link></li>
-					<li><Link href='/contact'>Contacts</Link></li>
-					<li><Link href='/dashboard'>Dashboard</Link></li>
-				</ul>
+			<div className="navbar-center lg:w-2/5 lg:flex relative">
+				<input type="search" placeholder="Searching for ..." className="bg-white w-96 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none" />
+				<div className="absolute left-0 top-0 mt-3 mr-4 flex justify-center item-center">
+					<SearchOutlinedIcon fontSize="small" />
+				</div>
 			</div>
 			<div className="navbar-end">
 				<Link className=" mx-5" href='/login' >Login <ArrowForwardOutlinedIcon /> </Link>
 			</div>
+
 		</div>
 	)
 }
