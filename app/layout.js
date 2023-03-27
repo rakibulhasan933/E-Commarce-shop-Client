@@ -15,8 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className={sans.className} lang="en">
-      <body className=' bg-slate-50 relative'>
-        <div className="sticky top-0">
+      <body className='relative'>
+        <div className="sticky top-0 z-10">
           <Navbar />
         </div>
         {children}
