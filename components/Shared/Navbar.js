@@ -1,4 +1,6 @@
-import Link from "next/link"
+"use client"
+import Link from "next/link";
+import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
 
 
 function Navbar() {
@@ -27,7 +29,7 @@ function Navbar() {
 				</ul>
 			</div>
 			<div className="navbar-end">
-				<Link className=" mx-5" href='/login' >Login</Link>
+				<Link className=" mx-5" href='/login' >Login <ArrowForwardOutlinedIcon /> </Link>
 			</div>
 		</div>
 	)
