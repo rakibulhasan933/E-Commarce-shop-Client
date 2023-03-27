@@ -1,6 +1,7 @@
 import './globals.css';
 import { PT_Sans } from 'next/font/google'
 import Navbar from '@/components/Shared/Navbar';
+import Footer from '@/components/Shared/Footer';
 
 
 const sans = PT_Sans({ subsets: ['latin'], weight: ['400', '700'] });
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
