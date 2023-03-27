@@ -23,7 +23,7 @@ function Navbar() {
 			</div>
 			<div className="navbar-center lg:w-2/5 lg:flex relative">
 				<input type="search" placeholder="Searching for ..." className="bg-white w-96 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none" />
-				<div className="absolute left-0 top-0 mt-3 mr-4 flex justify-center item-center">
+				<div className="pl-1 absolute left-0 top-0 mt-3 mr-4 flex justify-center item-center">
 					<SearchOutlinedIcon fontSize="small" />
 				</div>
 			</div>
