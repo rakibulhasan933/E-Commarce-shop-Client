@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Category from "@/components/Category";
 import Features from "@/components/Features";
 import SideBanner from "@/components/SideBanner";
 
@@ -17,6 +18,7 @@ export default function Home() {
           </div>
         </div>
         <Features />
+        <Category />
       </div>
     </div>
   )
