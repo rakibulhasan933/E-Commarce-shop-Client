@@ -1,5 +1,7 @@
 import Banner from "@/components/Banner";
+import Features from "@/components/Features";
 import SideBanner from "@/components/SideBanner";
+
 
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
             <SideBanner />
           </div>
         </div>
+        <Features />
       </div>
     </div>
   )
