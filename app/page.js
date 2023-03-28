@@ -5,6 +5,7 @@ import Electronic from "@/components/Electronic";
 import Features from "@/components/Features";
 import Heading from "@/components/Heading";
 import HeadingSecond from "@/components/HeadingSecond";
+import LongBanner from "@/components/LongBanner";
 import SideBanner from "@/components/SideBanner";
 
 
@@ -27,6 +28,7 @@ export default function Home() {
         <Brand />
         <Electronic />
         <HeadingSecond />
+        <LongBanner />
       </div>
     </div>
   )
