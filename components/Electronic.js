@@ -28,7 +28,7 @@ function Electronic() {
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400 mr-4" />
 										<h6>(4)</h6>
 									</div>
@@ -66,7 +66,7 @@ function Electronic() {
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400 mr-4" />
 										<h6>(4)</h6>
 									</div>
@@ -85,7 +85,7 @@ function Electronic() {
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
 										<input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400 mr-4" />
 										<h6>(4)</h6>
 									</div>
