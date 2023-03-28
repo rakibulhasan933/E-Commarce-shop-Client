@@ -25,10 +25,12 @@ export default function Home() {
         <Features />
         <Category />
         <Heading />
-        <Brand />
         <Electronic />
         <HeadingSecond />
+        <Electronic />
         <LongBanner />
+        <Electronic />
+        <Brand />
       </div>
     </div>
   )
