@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Brand from "@/components/Brand";
 import Category from "@/components/Category";
 import Electronic from "@/components/Electronic";
 import Features from "@/components/Features";
@@ -22,6 +23,7 @@ export default function Home() {
         <Features />
         <Category />
         <Heading />
+        <Brand />
         <Electronic />
       </div>
     </div>

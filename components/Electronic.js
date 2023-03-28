@@ -20,7 +20,7 @@ function Electronic() {
 					<div className="flex flex-row">
 						<div className=" basis-1/4 border-0 mr-2 bg-white p-2 h-96 hover:border-2 hover:border-black rounded-md">
 							<div className=" flex flex-col">
-								<Image className=' w-52 h-52 hover:scale-110' src={img1} />
+								<Image className=' w-52 h-52 hover:scale-110' src={img2} />
 								<div className=" text-center pt-3">
 									<h2 className=' font-semibold'>Black white Sweater</h2>
 									<h1 className=' font-bold text-lg'>$100</h1>
@@ -58,7 +58,7 @@ function Electronic() {
 						</div>
 						<div className=" basis-1/4 border-0 mr-2 bg-white p-2 h-96 hover:border-2 hover:border-black rounded-md">
 							<div className=" flex flex-col">
-								<Image className=' w-52 h-52 hover:scale-110' src={img1} />
+								<Image className=' w-52 h-52 hover:scale-110' src={img2} />
 								<div className=" text-center pt-3">
 									<h2 className=' font-semibold'>Black white Sweater</h2>
 									<h1 className=' font-bold text-lg'>$100</h1>
