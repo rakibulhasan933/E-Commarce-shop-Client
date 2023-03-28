@@ -15,7 +15,6 @@ function Electronic() {
 					<h3 className=' mr-3 pl-3'>Phone</h3>
 					<h3 className=' mr-3 pl-3'>Phone</h3>
 					<h3 className=' mr-3 pl-3'>Phone</h3>
-
 				</div>
 				<div className=" basis-4/5">
 					<div className="flex flex-row">
