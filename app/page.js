@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Category from "@/components/Category";
 import Features from "@/components/Features";
+import Heading from "@/components/Heading";
 import SideBanner from "@/components/SideBanner";
 
 
@@ -19,6 +20,7 @@ export default function Home() {
         </div>
         <Features />
         <Category />
+        <Heading />
       </div>
     </div>
   )
