@@ -192,8 +192,14 @@ function Search() {
 							</label>
 						</div>
 					</div>
-					<div className="bg-white basis-3/4">
-						<h2>Product</h2>
+					<div className=" basis-3/4">
+						{/* <div className="flex flex-row "> */}
+						<div className="grid grid-cols-3">
+							<div className="p-2 bg-white border ">
+								<h2>Image </h2>
+							</div>
+						</div>
+						{/* </div> */}
 					</div>
 
 				</div>
