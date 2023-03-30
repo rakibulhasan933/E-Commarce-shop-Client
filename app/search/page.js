@@ -5,6 +5,7 @@ import StarIcon from '@mui/icons-material/Star';
 import Image from 'next/image';
 import glass from '../../public/assets/sunglass-1.png';
 import watch from '../../public/assets/watch.png';
+import Link from 'next/link';
 
 function Search() {
 	const [isChecked, setIsChecked] = useState(false);
@@ -354,6 +355,24 @@ function Search() {
 					</div>
 
 				</div>
+			</div>
+			<div className="flex justify-center my-4">
+				<nav className="bg-white rounded-lg shadow-md">
+					<ul className="flex divide-x divide-gray-300">
+						<li className="px-3 py-2 cursor-pointer hover:bg-gray-100">
+							<Link href="#">1</Link>
+						</li>
+						<li className="px-3 py-2 cursor-pointer hover:bg-gray-100">
+							<Link href="#">2</Link>
+						</li>
+						<li className="px-3 py-2 cursor-pointer hover:bg-gray-100">
+							<Link href="#">3</Link>
+						</li>
+						<li className="px-3 py-2 cursor-pointer hover:bg-gray-100">
+							<Link href="#">4</Link>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 	)
