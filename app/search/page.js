@@ -4,7 +4,7 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 function Search() {
 	return (
-		<div className='h-screen p-4 bg-slate-200'>
+		<div className='p-4 bg-slate-200'>
 			<div className="p-4 m-4 rounded-md">
 				<div className="flex items-center justify-center ">
 					<div className="absolute flex md:w-1/2 md:items-center md:justify-center ">
@@ -33,9 +33,33 @@ function Search() {
 						<h2 className='mb-1 text-lg font-semibold '>Searching For "key"</h2>
 						<h2 className='font-light '> <span className='text-red-400 '>48</span> result found</h2>
 					</div>
-					<div className="">
-						<h3>Sort by</h3>
+					<div className="flex flex-row items-center justify-center gap-2 ">
+
+						<h3 className='font-semibold '>Sort by:-</h3>
+						<div className="px-2 py-1 border rounded ">
+							<select >
+								<option value="a-z">A-Z</option>
+								<option value="a-z">Z-A</option>
+							</select>
+
+						</div>
 					</div>
+				</div>
+			</div>
+			<div className="p-4">
+				<div className="flex flex-row gap-1">
+					<div className="p-4 bg-white basis-1/4">
+						<h2>Price Range</h2>
+						<div className="flex flex-row gap-0 ">
+							<input type="number" placeholder='0' />
+							<h4>To</h4>
+							<input type="number" placeholder='100' />
+						</div>
+					</div>
+					<div className="bg-white basis-3/4">
+						<h2>Product</h2>
+					</div>
+
 				</div>
 			</div>
 		</div>
