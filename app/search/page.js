@@ -27,9 +27,15 @@ function Search() {
 					</div>
 				</div>
 			</div>
-			<div className="p-6 m-4 bg-white rounded-md">
-				<div className="">
-					<h2> World</h2>
+			<div className="p-4 m-4 bg-white rounded-md">
+				<div className="flex justify-between px-5">
+					<div className="">
+						<h2 className='mb-1 text-lg font-semibold '>Searching For "key"</h2>
+						<h2 className='font-light '> <span className='text-red-400 '>48</span> result found</h2>
+					</div>
+					<div className="">
+						<h3>Sort by</h3>
+					</div>
 				</div>
 			</div>
 		</div>
