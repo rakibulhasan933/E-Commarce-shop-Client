@@ -2,6 +2,9 @@
 import React, { useState } from 'react';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import StarIcon from '@mui/icons-material/Star';
+import Image from 'next/image';
+import glass from '../../public/assets/sunglass-1.png';
+import watch from '../../public/assets/watch.png';
 
 function Search() {
 	const [isChecked, setIsChecked] = useState(false);
@@ -193,13 +196,161 @@ function Search() {
 						</div>
 					</div>
 					<div className=" basis-3/4">
-						{/* <div className="flex flex-row "> */}
-						<div className="grid grid-cols-3">
-							<div className="p-2 bg-white border ">
-								<h2>Image </h2>
+						<div className="grid grid-cols-3 gap-3">
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={glass} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Police Gray Eyeglasses</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={watch} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Kossil Watch Brown</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={glass} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Police Gray Eyeglasses</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={watch} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Kossil Watch Brown</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={glass} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Police Gray Eyeglasses</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={watch} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Kossil Watch Brown</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={glass} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Police Gray Eyeglasses</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={watch} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Kossil Watch Brown</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
+							</div>
+							<div className="p-2 bg-white border rounded-md">
+								<Image src={glass} className="object-cover w-full" />
+								<div className="px-3 py-2 ">
+									<h2 className='font-bold'>Police Gray Eyeglasses</h2>
+									<span className="text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+									<div className="flex justify-between mt-2">
+										<h2 className='font-semibold text-red-400 '>$100</h2>
+										<button className='px-2 py-1 text-xl font-bold border-2 border-red-200 rounded'>+</button>
+									</div>
+								</div>
 							</div>
 						</div>
-						{/* </div> */}
 					</div>
 
 				</div>
