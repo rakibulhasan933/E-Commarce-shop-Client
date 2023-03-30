@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import StarIcon from '@mui/icons-material/Star';
 
 function Search() {
 	const [isChecked, setIsChecked] = useState(false);
@@ -54,14 +55,14 @@ function Search() {
 			<div className="p-4">
 				<div className="flex flex-row gap-3">
 					<div className="p-4 bg-white rounded basis-1/4">
-						<h2 className='font-semibold '>Price Range</h2>
+						<h2 className='m-2 font-semibold '>Price Range</h2>
 						<div className="flex flex-row gap-0 mb-4">
 							<input type="number" placeholder='0' className='w-1/4 px-1 mr-3 border-2 rounded' />
 							<h4 className='font-extrabold '>-</h4>
 							<input type="number" placeholder='100' className='w-1/4 px-1 ml-3 border-2 rounded' />
 						</div>
 						<hr className='px-2 my-4' />
-						<h2 className='p-2 font-bold '>Brands</h2>
+						<h2 className='m-2 font-bold '>Brands</h2>
 						<div className="flex flex-col gap-1 ">
 							<label className="inline-flex items-center my-1">
 								<input
@@ -83,6 +84,7 @@ function Search() {
 							</label>
 						</div>
 						<hr className='px-2 my-4' />
+						<h2 className='p-2 font-bold '>Status</h2>
 						<div className="flex flex-col gap-1 ">
 							<label className="inline-flex items-center my-1">
 								<input
@@ -110,6 +112,83 @@ function Search() {
 									className="w-5 h-5 text-blue-600 form-checkbox"
 								/>
 								<span className="ml-2 text-gray-700">Featured</span>
+							</label>
+						</div>
+						<hr className='px-2 my-4' />
+						<h2 className='m-2 font-bold '>Ratings</h2>
+						<div className="flex flex-col gap-1 ">
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+								</span>
+							</label>
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">
+									<span className="ml-2 text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+								</span>
+							</label>
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">
+									<span className="ml-2 text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+								</span>
+							</label>
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">
+									<span className="ml-2 text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+								</span>
+							</label>
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">
+									<span className="ml-2 text-gray-700">
+										<StarIcon fontSize='small' className='text-orange-400 ' />
+									</span>
+								</span>
 							</label>
 						</div>
 					</div>
