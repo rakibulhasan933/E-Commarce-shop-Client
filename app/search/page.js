@@ -1,8 +1,14 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 function Search() {
+	const [isChecked, setIsChecked] = useState(false);
+
+	const handleCheckboxChange = () => {
+		setIsChecked(!isChecked);
+	};
+
 	return (
 		<div className='p-4 bg-slate-200'>
 			<div className="p-4 m-4 rounded-md">
@@ -41,19 +47,70 @@ function Search() {
 								<option value="a-z">A-Z</option>
 								<option value="a-z">Z-A</option>
 							</select>
-
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className="p-4">
-				<div className="flex flex-row gap-1">
-					<div className="p-4 bg-white basis-1/4">
-						<h2>Price Range</h2>
-						<div className="flex flex-row gap-0 ">
-							<input type="number" placeholder='0' />
-							<h4>To</h4>
-							<input type="number" placeholder='100' />
+				<div className="flex flex-row gap-3">
+					<div className="p-4 bg-white rounded basis-1/4">
+						<h2 className='font-semibold '>Price Range</h2>
+						<div className="flex flex-row gap-0 mb-4">
+							<input type="number" placeholder='0' className='w-1/4 px-1 mr-3 border-2 rounded' />
+							<h4 className='font-extrabold '>-</h4>
+							<input type="number" placeholder='100' className='w-1/4 px-1 ml-3 border-2 rounded' />
+						</div>
+						<hr className='px-2 my-4' />
+						<h2 className='p-2 font-bold '>Brands</h2>
+						<div className="flex flex-col gap-1 ">
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">Tesla</span>
+							</label>
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">Sony</span>
+							</label>
+						</div>
+						<hr className='px-2 my-4' />
+						<div className="flex flex-col gap-1 ">
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">On Sale</span>
+							</label>
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">In Stock</span>
+							</label>
+							<label className="inline-flex items-center my-1">
+								<input
+									type="checkbox"
+									checked={isChecked}
+									onChange={handleCheckboxChange}
+									className="w-5 h-5 text-blue-600 form-checkbox"
+								/>
+								<span className="ml-2 text-gray-700">Featured</span>
+							</label>
 						</div>
 					</div>
 					<div className="bg-white basis-3/4">
