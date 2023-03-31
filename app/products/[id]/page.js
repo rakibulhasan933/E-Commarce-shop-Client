@@ -46,9 +46,9 @@ const SingleProduct = () => {
 			<hr className='w-full px-5 border-1' />
 			<div className="flex flex-col gap-1 p-5 ">
 				<h2 className='mb-5 text-xl font-semibold '>Reviews</h2>
-				<div className="flex flex-col gap-1 ">
-					<div className="flex flex-row gap-1">
-						<div className="">
+				<div className="flex flex-col gap-1 mb-4 ">
+					<div className="flex flex-row gap-1 mb-4">
+						<div className="object-cover ">
 							<Image src={review} />
 						</div>
 						<div className="px-4">
@@ -66,6 +66,40 @@ const SingleProduct = () => {
 							</div>
 							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio illum cumque eligendi quasi perspiciatis quidem perferendis debitis? Aut blanditiis nihil nobis at distinctio veritatis dolor in maiores consequatur. Vitae, ea.</p>
 						</div>
+					</div>
+					<div className="flex flex-row gap-1">
+						<div className="object-cover ">
+							<Image src={review} />
+						</div>
+						<div className="px-4">
+							<h2>Jenifer Tulio</h2>
+							<div className="mb-4 ">
+								<span className="ml-2 text-gray-700">
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+									<StarIcon fontSize='small' className='text-orange-400 ' />
+								</span>
+								<span className='mr-2 '>(5)</span>
+								<span className="mr-3 ">2.5 years ago</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio illum cumque eligendi quasi perspiciatis quidem perferendis debitis? Aut blanditiis nihil nobis at distinctio veritatis dolor in maiores consequatur. Vitae, ea.</p>
+						</div>
+					</div>
+					<div className="">
+						<h2 className='my-3 text-2xl font-semibold'>Write a Review for this product</h2>
+						<h2 className='mb-2 font-semibold'>Your Rating*</h2>
+						<span className="my-2 text-gray-700">
+							<StarIcon fontSize='small' className='text-orange-400 ' />
+							<StarIcon fontSize='small' className='text-orange-400 ' />
+							<StarIcon fontSize='small' className='text-orange-400 ' />
+							<StarIcon fontSize='small' className='text-orange-400 ' />
+							<StarIcon fontSize='small' className='text-orange-400 ' />
+						</span>
+						<h2 className='my-2 font-semibold'>Your Reviews*</h2>
+						<textarea className='w-full h-20 p-4 mb-4 border rounded-md' required placeholder='Write a review here....' />
+						<button className='px-10 py-2 text-base font-medium text-white bg-red-500 rounded'>Submit</button>
 					</div>
 				</div>
 			</div>
