@@ -1,7 +1,7 @@
 import './globals.css';
 import { PT_Sans } from 'next/font/google'
 import Navbar from '@/components/Shared/Navbar';
-import Footer from '@/components/Shared/Footer';
+import Footer from '@/components/Shared/Footer'; 
 
 
 const sans = PT_Sans({ subsets: ['latin'], weight: ['400', '700'] });
