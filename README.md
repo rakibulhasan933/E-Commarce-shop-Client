@@ -1,8 +1,36 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Step 1: Node.js installation
+[Node.js download](https://nodejs.org/dist/v23.6.0/node-v23.6.0-x64.msi)
 
-Currently, two official plugins are available:
+## Step 2: npm update
+#### How to Open Command Prompt on Windows
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Press the **Windows** button on your keyboard.
+2. Go to the search bar and type **CMD**.
+3. Press **Enter** to open the Command Prompt.
+```bash
+npm install -g npm@latest
+```
+
+```bash
+npm install -g pnpm@latest-10
+```
+```bash
+npm install -g bun
+```
+## Step 3: Verify the installation
+```bash
+npm -v
+pnpm -v
+bun -v
+```
+
+## Step 4: React app installation
+```bash
+bun create vite@latest
+```
+
+
+
+
